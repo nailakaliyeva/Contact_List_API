@@ -59,6 +59,28 @@ def handle_contact():
         return jsonify(all_people), 200
     return "Invalid Method", 404
 
+@app.route("/update/<int:person_id>", methods=["PUT", "DELETE"])
+def update_contact(person_id):
+    if request.method == "PUT":
+        body = request.get_json()
+        contact1 = Person.query.get(person_id)
+        print(person_id)
+        if "address" in body:
+            contact1.address = body["address"]
+        if "phone" in body:
+            contact1.phone = body["phone"]
+        if "email" in body:
+            contact1.email = body["email"]
+        if "full_name" in body:
+            contact1.full_name = body["full_name"]
+            db.session.commit()
+            return jsonify(contact1.serialize()), 200
+    if request.method == "DELETE":
+        contact1 = Person.query.get(person_id)
+        db.session.delete(contact1)
+        db.session.commit()
+        return "ok", 200
+
 
 
 
