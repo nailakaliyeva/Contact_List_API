@@ -54,3 +54,24 @@ $ heroku create <your_application_name>
 $ git push heroku master
 ```
 :warning: For a more detailed explanation on working with .env variables or the MySQL database [read the full guide](https://github.com/4GeeksAcademy/flask-rest-hello/blob/master/docs/DEPLOY_YOUR_APP.md).
+
+
+*******************************************FOR CONTACT LIST API USERS***************************************************
+
+Welcome to CONTACT LIST API
+This is a simple API that will let you GET, UPDATE, POST and DELETE contacts to/from our API
+
+Here is the body to POST a contact in JSON format using /contact endpoint:
+
+{
+"address": "",
+"full_name": "",
+"phone": "",
+"email": ""
+}
+
+To GET information about posted contacts use the same endpoint.
+
+To UPDATE  a posted contact use the same JSON body as shown above and use PUT method in POSTMAN using /update/# endpoint, where you put your contact's id instead of the #
+
+To DELETE a posted contact use DELETE method in POSTMAN using the same /update/#  endpoint, where you put your contact's or songs's id instead of the #
