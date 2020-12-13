@@ -56,7 +56,7 @@ $ git push heroku master
 ⚠️ For a more detailed explanation on working with .env variables or the MySQL database [read the full guide](https://github.com/4GeeksAcademy/flask-rest-hello/blob/master/docs/DEPLOY_YOUR_APP.md).
 
 
-## FOR CONTACT LIST API USERS
+## 'HOW TO' GUIDE
 
 ### Welcome to CONTACT LIST API
 
