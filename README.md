@@ -78,6 +78,6 @@ Here is the body to *POST* a contact in JSON format using /contact endpoint:
 
 To ***GET*** information about posted contacts use the same endpoint.
 
-To ***UPDATE***  a posted contact use the same JSON body as shown above and use *PUT* method in POSTMAN using **/update/#**  endpoint, where you put your contact's id instead of the #
+To ***UPDATE***  a posted contact use the same JSON body as shown above and use ***PUT*** method in POSTMAN using **/update/#**  endpoint, where you put your contact's id instead of the #
 
 To ***DELETE*** a posted contact use ***DELETE*** method in POSTMAN using the same **/update/#**  endpoint, where you put your contact's or songs's id instead of the #
