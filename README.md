@@ -1,4 +1,4 @@
-Here's a little guide on how to run a full stack application
+- IF YOU WANT TO RUN A FULL STACK APPLICATION
 
 ![contact_list_full_stack_app](https://user-images.githubusercontent.com/42359973/102006672-cd5a5900-3cf0-11eb-92e9-7c1eb8d04272.gif)
 
