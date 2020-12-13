@@ -2,6 +2,10 @@
 
 ![contact_list_full_stack_app](https://user-images.githubusercontent.com/42359973/102006672-cd5a5900-3cf0-11eb-92e9-7c1eb8d04272.gif)
 
+## IF YOU ONLY WANT THE API:
+
+![contact_list_API](https://user-images.githubusercontent.com/42359973/102007218-0d233f80-3cf5-11eb-871e-4cd20448a951.gif)
+
 
 # Flask Boilerplate for profesional development
 
