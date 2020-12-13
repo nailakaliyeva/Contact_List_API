@@ -60,9 +60,9 @@ $ git push heroku master
 
 ### Welcome to CONTACT LIST API
 
-This is a simple API that will let you ***GET***, ***UPDATE***, *POST* and ***DELETE*** contacts to/from our API
+This is a simple API that will let you ***GET***, ***UPDATE***, ***POST*** and ***DELETE*** contacts to/from our API
 
-Here is the body to *POST* a contact in JSON format using /contact endpoint:
+Here is the body to ***POST*** a contact in JSON format using /contact endpoint:
 
 {
 
